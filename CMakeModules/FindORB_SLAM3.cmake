@@ -4,8 +4,8 @@
 # You should ensure your ORB_SLAM3 can run correctly
 #
 # To help the search ORB_SLAM3_ROOT_DIR environment variable as the path to ORB_SLAM3 root folder
-#  e.g. `set( ORB_SLAM3_ROOT_DIR=~/ORB_SLAM3) `
-set(ORB_SLAM3_ROOT_DIR "~/Install/ORB_SLAM/ORB_SLAM3")
+#  e.g. `set( ORB_SLAM3_ROOT_DIR=~/ORB_SLAM3) ` 
+set(ORB_SLAM3_ROOT_DIR "~/drone_autopilot/ORB_SLAM/ORB_SLAM3") 
 
 # message(${ORB_SLAM3_ROOT_DIR})
 # message(${ORB_SLAM3_ROOT_DIR}/include)
