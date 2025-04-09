@@ -114,4 +114,5 @@ This repository is modified from [this](https://github.com/curryc/ros2_orbslam3)
 To add `stereo-inertial` mode and improve build difficulites.
 
 
-## 
+## To launch via launch file
+```ros2 launch orbslam3 vslam.launch.py```
