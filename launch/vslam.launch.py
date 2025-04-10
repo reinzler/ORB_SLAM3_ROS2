@@ -23,6 +23,7 @@ def generate_launch_description():
         get_package_share_directory("orbslam3"), 'vocabulary', 'ORBvoc.txt'
     )
 
+
     # Основная нода C++
     cpp_node = Node(
         package='orbslam3',
@@ -31,6 +32,9 @@ def generate_launch_description():
             vslam_vocabulary,
             vslam_config],
         output='screen',
+        remappings=[
+            ('/camera', '/downward_camera/image_raw')  # Remap топика
+        ],
     )
 
 
